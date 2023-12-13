@@ -8,10 +8,10 @@ The Endurance Zone API is intended for developers who want to write applications
 
 The Endurance Zone API is available in both our staging and production environments:
 
-| Environment       | URL													                          		 |
-| ----------        | -------------													                     |  
-| Staging           | https://api.staging.endurancezone.com/{version}/{endpoint} |
-| Production        | https://api.endurancezone.com/{version}/{endpoint}         |
+| Environment       | URL													   |
+| ----------        | -------------											   |  
+| Staging           | https://api.staging.myezrewards.com/{version}/{endpoint} |
+| Production        | https://api.myezrewards.com/{version}/{endpoint}         |
 
 Where ```version``` is the version of the API that you wish to access (currently v1). Access to the API must be made using TLS1.2 (less secure versions of TLS are not supported). Calls made over plain HTTP will fail.
 
