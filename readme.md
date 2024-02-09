@@ -90,12 +90,12 @@ Managing members would typically be used to upgrade or downgrade a Member level 
 | Form field      | Description															|
 | ----------      | -------------														|
 | EmailAddress    | Member's email address												|
-| PartnerMemberId | Your unique identifier for this member	                |
-| Type            | ```Manage```														|
+| PartnerMemberId | Your unique identifier for this member	                            |
+| Type            | ```Manage``` (Case insensitive)										|
 | FirstName       | Member first name							    					|
 | LastName        | Member last name                                                    |
 | Country         | Acceptable values are: ```Canada```, ```US```, ```UK```				|
-| MemberLevel     | Acceptable values are: ```Basic```, ```Premium```, ```Premium Plus``` |
+| MemberLevel     | Acceptable values are: ```Basic```, ```Basic Plus```, ```Premium```, ```Premium Plus``` |
 | NewEmailAddress | New email address                                                   |
 
 If you wish to change the email address of a member, the new email address should be added as an optional parameter titled ‘NewEmailAddress’. FirstName, LastName and MemberLevel can be changed directly in the submitted parameters.
