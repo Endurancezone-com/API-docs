@@ -31,15 +31,15 @@ A new member is created by POSTing to the following endpoint:
 
 ```[POST] /members```
 
-| Form field        | Description															|
-| ----------        | -------------															|
-| FirstName         | Member first name														|
-| LastName          | Member last name                                                      |
-| EmailAddress      | Member's email address												|
-| PartnerMemberId   | (Optional) Your unique identifier for this member	                    |
-| Country           | Acceptable values are: ```Canada```, ```US```, ```UK```				|
-| Type              | ```New```																|
-| MemberLevel       | Acceptable values are: ```Basic```, ```Premium```, ```Premium Plus``` |
+| Form field        | Description															                  |
+| ----------        | -------------															                  |
+| FirstName         | Member first name														                  |
+| LastName          | Member last name                                                                        |
+| EmailAddress      | Member's email address												                  |
+| PartnerMemberId   | (Optional) Your unique identifier for this member	                                      |
+| Country           | Acceptable values are: ```Canada```, ```US```, ```UK```				                  |
+| Type              | ```New```	(Case insensitive)							                                  |
+| MemberLevel       | Acceptable values are: ```Basic```, ```Basic Plus```, ```Premium```, ```Premium Plus``` |
 
 All form fields are required.
 
@@ -62,7 +62,7 @@ Renewing a subscription will set the renewal date to one year from the current d
 | ----------        | -------------															|
 | EmailAddress      | Member's email address												|
 | PartnerMemberId   | Your unique identifier for this member	                            |
-| Type              | ```Renewal```															|
+| Type              | ```Renewal```	(Case insensitive)										|
 
 A successful response looks like: 
 
@@ -110,7 +110,7 @@ To cancel a member use the following endpoint and form fields. Either an ```Emai
 | ----------        | -------------															|
 | EmailAddress      | Member's email address												|
 | PartnerMemberId   | Your unique identifier for this member	                            |
-| Type              | ```Cancel```															|
+| Type              | ```Cancel``` (Case insensitive)       								|
 
 A successful response looks like: 
 
@@ -131,7 +131,7 @@ Use the following endpoint and form fields to retrieve information related to a 
 | ----------        | -------------															|
 | EmailAddress      | Member's email address												|
 | PartnerMemberId   | Your unique identifier for this member	                            |
-| Type              | ```Lookup```															|
+| Type              | ```Lookup```	(Case insensitive)										|
 
 A typical response would be:
 ```
