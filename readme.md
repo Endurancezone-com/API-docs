@@ -15,7 +15,7 @@ The Endurance Zone API is available in both our staging and production environme
 
 Where ```version``` is the version of the API that you wish to access (currently v1). Access to the API must be made using TLS1.2 (less secure versions of TLS are not supported). Calls made over plain HTTP will fail.
 
-**Current API Version**: ```version```
+**Current API Version**: v1
 
 ## Authorisation
 
