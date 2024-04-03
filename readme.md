@@ -39,7 +39,7 @@ A new member is created by POSTing to the following endpoint:
 | LastName          | Member last name                                                                        |
 | EmailAddress      | Member's email address												                  |
 | PartnerMemberId   | (Optional) Your unique identifier for this member	                                      |
-| Country           | Acceptable values are: ```Canada```, ```US```, ```UK```				                  |
+| Country           | Acceptable values are: ```Canada```, ```US```, ```UK```  *additional countries can be enabled as part of the onboarding				                  |
 | Type              | ```New```	(Case insensitive)							                                  |
 | MemberLevel       | Acceptable values are: ```Basic```, ```Basic Plus```, ```Premium```, ```Premium Plus``` |
 
