@@ -10,7 +10,7 @@ The Endurance Zone API is available in both our staging and production environme
 
 | Environment       | URL													   |
 | ----------        | -------------											   |  
-| Staging           | https://api.staging.myezrewards.com/{version}/{endpoint} |
+| Test              | https://api.test.myezrewards.com/{version}/{endpoint} |
 | Production        | https://api.myezrewards.com/{version}/{endpoint}         |
 
 Where ```version``` is the version of the API that you wish to access (currently v1). Access to the API must be made using TLS1.2 (less secure versions of TLS are not supported). Calls made over plain HTTP will fail.
@@ -48,9 +48,8 @@ All form fields are required.
 A successful response looks like:
 ```
 {
-    "MemberUrl": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci",
     "ResultDetails": "Member created successfully",
-    "Result": "200-OK"
+    "MemberUrl": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci"
 }
 ```
 
@@ -71,7 +70,7 @@ A successful response looks like:
 ```
 {
     "ResultDetails": "Member subscription renewed successfully",
-    "Result": "200-OK"
+    "MemberUrl": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci"
 }
 ```
 
@@ -119,7 +118,6 @@ A successful response looks like:
 ```
 {
     "ResultDetails": "Member subscription cancelled successfully",
-    "Result": "200-OK"
 }
 ```
 
@@ -142,7 +140,6 @@ A typical response would be:
     "API": "Members",
     "JoinDate": "2023-12-06",
     "ResultDetails": "Lookup Results",
-    "Result": "200-OK",
     "Identifier": 8791480,
     "MemberURL": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci",
     "MemberLevel": "Basic",
