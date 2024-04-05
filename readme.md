@@ -49,7 +49,8 @@ A successful response looks like:
 ```
 {
     "ResultDetails": "Member created successfully",
-    "MemberUrl": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci"
+    "MemberUrl": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci",
+    "Result": "200-OK"
 }
 ```
 
@@ -70,7 +71,8 @@ A successful response looks like:
 ```
 {
     "ResultDetails": "Member subscription renewed successfully",
-    "MemberUrl": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci"
+    "MemberUrl": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci",
+    "Result": "200-OK"
 }
 ```
 
@@ -118,6 +120,7 @@ A successful response looks like:
 ```
 {
     "ResultDetails": "Member subscription cancelled successfully",
+    "Result": "200-OK"
 }
 ```
 
@@ -140,6 +143,7 @@ A typical response would be:
     "API": "Members",
     "JoinDate": "2023-12-06",
     "ResultDetails": "Lookup Results",
+    "Result": "200-OK",
     "Identifier": 8791480,
     "MemberURL": "https://rewards.client.com/preload/client?iframe=ffe2SLrm4qrvyulsci",
     "MemberLevel": "Basic",
