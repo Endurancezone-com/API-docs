@@ -39,7 +39,8 @@ A new member is created by POSTing to the following endpoint:
 | LastName          | Member last name                                                                        |
 | EmailAddress      | Member's email address												                  |
 | PartnerMemberId   | (Optional) Your unique identifier for this member	                                      |
-| Country           | Acceptable values are: ```Canada```, ```US```, ```UK```,```ALB```,```MX```,```SA```,```AU```,```NZ```,```AF```,```IN```,```AE```,```AT```,```BE```,```BG```,```CH```,            ```DE```,```DK```,```ES```,```FR```,```IE```,```IT```,```LU```,```MC```, ```NL```,```NO```,```SE```,```SG```,```ZA```,```UAE```  *additional countries can be enabled as part of the onboarding	  |
+| Country           | Acceptable values are: ```Canada```, ```US```, ```UK```,```ALB```,```MX```,```SA```,```AU```,```NZ```,```AF```,```IN```,```AE```,```AT```,```BE```,```BG```,```CH```,            ```DE```,```DK```,```ES```,```FR```,```IE```,```IT```,```LU```,```MC```, ```NL```,```NO```,```SE```,```SG```,```ZA```,```UAE```
+*additional countries can be enabled as part of the onboarding	  |
 | Type              | ```New```	(Case insensitive)							                                  |
 | MemberLevel       | Acceptable values are: ```Basic```, ```Basic Plus```, ```Premium```, ```Premium Plus``` |
 
