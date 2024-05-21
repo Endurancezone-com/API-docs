@@ -39,8 +39,7 @@ A new member is created by POSTing to the following endpoint:
 | LastName          | Member last name                                                                        |
 | EmailAddress      | Member's email address												                  |
 | PartnerMemberId   | (Optional) Your unique identifier for this member	                                      |
-| Country           | Acceptable values are: ```USA```,```UK```,```Canada```,```Europe```,```Mexico```,```Australia```,```New Zealand```,
-```Africa```,```India```,```Dubai```,```Austria```,```Belgium```,```Bulgaria```,```Switzerland```,```Germany```,```Denmark```,```Spain```,```France```,```Ireland```,```Italy```,```Luxembourg```,```Monaco```,```Netherlands```,```Norway```,```Sweden```,```Singapore```,```South Africa```,```UAE```    -      *additional countries can be enabled as part of the onboarding	  |
+| Country           | Acceptable values are: ```USA```,```UK```,```Canada```,```Europe```,```Mexico```,```Australia```,```New Zealand```,```Africa```,```India```,```Dubai```,```Austria```,```Belgium```,```Bulgaria```,```Switzerland```,```Germany```,```Denmark```,```Spain```,```France```,```Ireland```,```Italy```,```Luxembourg```,```Monaco```,```Netherlands```,```Norway```,```Sweden```,```Singapore```,```South Africa```,```UAE```    -      *additional countries can be enabled as part of the onboarding	  |
 | Type              | ```New```	(Case insensitive)							                                  |
 | MemberLevel       | Acceptable values are: ```Basic```, ```Basic Plus```, ```Premium```, ```Premium Plus``` |
 
@@ -98,8 +97,7 @@ Managing members would typically be used to upgrade or downgrade a Member level 
 | Type            | ```Manage``` (Case insensitive)										|
 | FirstName       | Member first name							    					|
 | LastName        | Member last name                                                    |
-| Country         |  Acceptable values are: ```USA```,```UK```,```Canada```,```Europe```,```Mexico```,```Australia```,```New Zealand```,
-```Africa```,```India```,```Dubai```,```Austria```,```Belgium```,```Bulgaria```,```Switzerland```,```Germany```,```Denmark```,```Spain```,```France```,```Ireland```,```Italy```,```Luxembourg```,```Monaco```,```Netherlands```,```Norway```,```Sweden```,```Singapore```,```South Africa```,```UAE```    -      *additional countries can be enabled as part of the onboarding				|
+| Country         |  Acceptable values are: ```USA```,```UK```,```Canada```,```Europe```,```Mexico```,```Australia```,```New Zealand```,```Africa```,```India```,```Dubai```,```Austria```,```Belgium```,```Bulgaria```,```Switzerland```,```Germany```,```Denmark```,```Spain```,```France```,```Ireland```,```Italy```,```Luxembourg```,```Monaco```,```Netherlands```,```Norway```,```Sweden```,```Singapore```,```South Africa```,```UAE```    -      *additional countries can be enabled as part of the onboarding				|
 | MemberLevel     | Acceptable values are: ```Basic```, ```Basic Plus```, ```Premium```, ```Premium Plus``` |
 | NewEmailAddress | New email address                                                   |
 
