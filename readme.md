@@ -13,6 +13,13 @@ The Endurance Zone API is available in both our staging and production environme
 | Test              | https://api.test.myezrewards.com/{version}/{endpoint} |
 | Production        | https://api.myezrewards.com/{version}/{endpoint}         |
 
+### Swagger Documents
+
+| Environment       | URL													   |
+| ----------        | -------------											   |  
+| Test              | [https://api.test.myezrewards.com/swagger](https://api.test.myezrewards.com/swagger) |
+| Production        | [https://api.myezrewards.com/swagger](https://api.myezrewards.com/swagger)       |
+
 Where ```version``` is the version of the API that you wish to access (currently v1). Access to the API must be made using TLS1.2 (less secure versions of TLS are not supported). Calls made over plain HTTP will fail.
 
 **Current API Version**: v1
